@@ -13,9 +13,9 @@ export default {
   root: './demo',
   resolve: {
     alias: {
-      '@dgreenheck/tree-js': path.resolve(
+      '@dkostenevich/tree-js': path.resolve(
         __dirname,
-        'build/@dgreenheck-tree-js.es.js',
+        'build/@dkostenevich-tree-js.es.js',
       ),
     },
   },

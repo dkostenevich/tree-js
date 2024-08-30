@@ -1,23 +1,25 @@
 {
-  "name": "@dgreenheck/tree-js",
-  "author": "Daniel Greenheck",
-  "version": "0.4.0",
+  "name": "@dkostenevich/tree-js",
+  "author": "dkostenevich",
+  "version": "0.5.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dgreenheck/tree-js.git"
+    "url": "git+https://github.com/dkostenevich/tree-js.git"
   },
-  "homepage": "https://dgreenheck.github.io/tree-js/",
   "bugs": {
-    "url": "https://github.com/dgreenheck/tree-js/issues"
+    "url": "https://github.com/dkostenevich/tree-js/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "type": "module",
-  "main": "build/@dgreenheck-tree-js.umd.js",
-  "module": "build/@dgreenheck-tree-js.es.js",
+  "main": "build/@dkostenevich-tree-js.umd.js",
+  "module": "build/@dkostenevich-tree-js.es.js",
   "exports": {
     ".": {
-      "import": "./build/@dgreenheck-tree-js.es.js",
-      "require": "./build/@dgreenheck-tree-js.umd.js"
+      "import": "./build/@dkostenevich-tree-js.es.js",
+      "require": "./build/@dkostenevich-tree-js.umd.js"
     }
   },
   "files": [

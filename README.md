@@ -1,21 +1,17 @@
 # Tree.js
 
 <p align="center">
-<img src="https://github.com/dgreenheck/tree-js/assets/3814912/d42076c3-06ad-469d-bca1-f84a1a5eb2cb" width="400">
+<img src="https://github.com/dkostenevich/tree-js/assets/3814912/d42076c3-06ad-469d-bca1-f84a1a5eb2cb" width="400">
 </p>
 
 A procedural tree generator built with Three.js. Over 30 tunable parameters and support for exporting to .glb.
-
-## Live Demo
-
-https://dgreenheck.github.io/tree-js/
 
 # Installation
 
 The tree generation code is published as an npm package and can be imported into your own project.
 
 ```js
-npm i @dgreenheck/tree-js
+npm i @dkostenevich/tree-js
 ```
 
 # Usage
